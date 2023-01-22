@@ -1,7 +1,7 @@
 # hotel_project_uniwa_ice<br />
 <h2>Hotel Showcase and Reservation Site</h2><br />
 <br />
-![Homepage screenshot](screenshots/homepage.png)<br/>
+<img src="screenshots/homepage.png" alt="Homepage Screenshot">
 <h3><b>Οδηγίες εγκατάστασης</b></h3><br />
 Κατά την υλοποίηση χρησιμοποιήσαμε το XAMPP v3.3.0. Για να τρέξετε το site, <br />
   1)	Τοποθετήστε τον φάκελο hotel στον φάκελο htdocs στην τοποθεσία εγκατάστασης του XAMPP.<br />
