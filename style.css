@@ -1,0 +1,876 @@
+/*GLOBAL*/
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 65px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+
+/*BODY STYLING*/
+
+.body{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+#section-main{
+    text-align: center;
+    background-image: url("images/main-background.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#section-main h1{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+#landing-info-box{
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 50px;
+}
+
+#landing-info-box p{
+    font-weight:lighter;
+    color: white;
+    
+}
+
+#landing-info-box h2{
+    font-weight:bold;
+    color: white;
+}
+
+#reception{
+    background-image: url("images/reception-background.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+#restaurant{
+    background-image: url("images/restaurant-background.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: right;
+}
+
+#bedroom{
+    background-image: url("images/bedroom-background.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#sauna{
+    background-image: url("images/sauna-background.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: right;
+}
+
+#reception, #restaurant, #bedroom, #sauna{
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px;
+    height: 57.1vh;
+}
+
+#reception h2, #restaurant h2, #bedroom h2, #sauna h2, #section-main h1{
+    margin: 0px;
+    color: white;
+    padding: 10px 30px;
+}
+
+#reception h2, #bedroom h2, #reception p, #bedroom p {
+    text-align: right;
+    color: white;
+    max-width: 100%;
+    
+}
+
+
+#restaurant h2, #sauna h2, #restaurant p, #sauna p {
+    text-align: left;
+    color: white;
+    max-width: 100%;
+}
+
+#textbox-right, #textbox-right #button{
+    float: right;
+}
+
+#textbox-left, #textbox-left #button{
+    float: left;
+}
+
+#textbox-left #button a, #textbox-right #button a{
+ display: block;
+ padding: 20px 40px;
+}
+
+#button{
+    background-color: rgb(0, 49, 112);
+    border:0px;
+    color: white;
+    }
+
+#button:hover{
+    background-color: rgb(0, 76, 175);
+}
+
+/* RESERVATION PAGE STYLING */
+
+#reservation-page{
+    text-align: center;
+    background-image: url("images/reservations-background.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#reservation-page #reservation-box{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    background-color: rgb(0, 0, 0, 0.5);  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+#reservation-page #reservation-box #availability-table{
+    margin: auto;
+    flex-grow: 1;
+    width: 70%;
+}
+
+#reservation-page #reservation-box #availability-table h4{
+   color: white;
+}
+
+#reservation-page #reservation-box #form-box{
+    flex-grow: 1;
+    width: 70%;
+    margin: auto;
+}
+
+#reservation-page #reservation-box #reservation-form #form-entry{
+    padding: 20px;
+    text-align: left;
+    display: block;
+    margin: auto;
+}
+
+#reservation-page #reservation-box #reservation-form #form-entry label{
+    display: block;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#reservation-page #reservation-box #reservation-form #form-entry input,
+#reservation-page #reservation-box #reservation-form #form-entry textarea{
+    width: 100%;
+}
+
+#reservation-page #reservation-box #reservation-form .user-submit input{
+    background-color: rgb(0, 50, 124);
+    border: 0px;
+    color: white;
+    height: 50px;
+}
+
+
+/* CONTACT PAGE STYLING */
+
+#contact-page{
+    text-align: center;
+    background-image: url("images/contact-background.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+#contact-page #form-box{
+    position: relative;
+    margin: auto;
+    width: 40%;
+    height: 60vh;
+    background-color: rgb(0, 0, 0, 0.5);  
+}
+
+#contact-page #form-box #contact-form{
+    width: 60%;
+    margin: auto;
+}
+
+#contact-page #form-box #contact-form #form-entry{
+    padding: 20px;
+    text-align: left;
+    display: block;
+}
+
+#contact-page #form-box #contact-form #form-entry label{
+    display: block;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#contact-page #form-box #contact-form #form-entry input,
+#contact-page #form-box #contact-form #form-entry textarea{
+    width: 100%;
+}
+
+#contact-page #form-box #contact-form .user-submit input{
+    background-color: rgb(0, 50, 124);
+    border: 0px;
+    color: white;
+    height: 50px;
+}
+
+/* USER PANEL PAGE STYLING */
+#dashboard-page{
+    text-align: center;
+    background-image: url("images/reservations-background.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+#dashboard-page #dashboard-landing p{
+    font-size: 30px;
+    color: white;
+
+}
+
+#dashboard-page #button{
+    margin-top: 30px;
+    padding: 0px;
+}
+#dashboard-page #button a, #section-main #landing-info-box #button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 20px 40px;
+    display: block;
+}
+
+
+#table-wrapper{
+    margin: auto;
+}
+
+#reservation-list {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+  }
+  
+  #reservation-list td, #reservation-list th {
+    border: 1px solid white;
+    padding: 8px;
+  }
+  
+  #reservation-list tr:nth-child(even){background-color: #f2f2f2;}
+  #reservation-list tr:nth-child(odd){background-color: #cfcfcf;}
+  
+  #reservation-list tr:hover {background-color: #ddd;}
+  
+  #reservation-list th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00236e;
+    color: white;
+  }
+
+/* ADMIN PANEL PAGE STYLING*/
+
+#admin-page{
+    text-align: center;
+    background-image: url("images/admin-background.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#admin-page #admin-landing p{
+    font-size: 30px;
+    color: white;
+
+}
+
+#admin-page #admin-landing h3{
+    color: white;
+}
+
+#admin-table-wrapper{
+    margin: auto;
+}
+
+#admin-reservation-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+  }
+  
+#admin-reservation-table td, #admin-reservation-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #admin-reservation-table tr:nth-child(even){background-color: #f2f2f2;}
+  #admin-reservation-table tr:nth-child(odd){background-color: #cfcfcf;}
+  
+  #admin-reservation-table tr:hover {background-color: #ddd;}
+  
+  #admin-reservation-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  #admin-page #reservation-box{
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 95%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+#admin-page #admin-table-wrapper{
+    position: relative;
+    margin: auto;
+    width: 95%;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+
+#admin-page #admin-table-wrapper p{
+    padding-top: 20px;
+}
+
+#admin-page #form-wrapper #reservation-box p, #admin-page #form-wrapper #delete-box p{
+    padding-top: 20px;
+} 
+
+#admin-page #reservation-box #form-box, #admin-page #delete-box #form-box{
+    margin: 20px auto;
+    width: 40%;
+}
+
+#admin-page #reservation-box #form-box #form-entry, #admin-page #delete-box #form-box #form-entry{
+    padding: 10px;
+    text-align: left;
+    display: block;
+}
+
+#admin-page #reservation-box #form-box #form-entry label, #admin-page #delete-box #form-box #form-entry label{
+    display: block;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#admin-page #reservation-box #form-box #form-entry input,
+#admin-page #reservation-box #form-box #form-entry textarea,
+#admin-page #delete-box #form-box #form-entry input,
+#admin-page #delete-box #form-box #form-entry textarea{
+    width: 100%;
+}
+
+#admin-page #reservation-box #form-box .user-submit input,
+#admin-page #delete-box #form-box .user-submit input{
+    background-color: rgb(0, 50, 124);
+    border: 0px;
+    color: white;
+    height: 50px;
+}
+
+
+#admin-page #logout-button{
+    padding: 30px 0px;
+}
+
+
+#admin-page #logout-button #button{
+  padding: 0px;
+}
+
+#admin-page #logout-button a{   
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 300;
+    padding: 20px 40px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* TOP USER BAR STYLING */
+#userbar{
+    position: relative;
+    background-color: rgb(0, 0, 0);  
+    height: 40px;  
+    display: flex;  
+    align-items: center;
+    
+}
+
+#userbar nav{
+    width: 100%;
+    float: right;
+    margin-right: 20px;
+}
+
+#userbar nav #userbar-menu #menu-items{
+    padding: 0px;
+    float: right;
+}
+
+#userbar nav #userbar-menu #menu-items li{
+    display: inline;
+}
+
+#userbar nav #userbar-menu #menu-items li a{
+    padding: 4px 8px;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+#userbar nav #userbar-menu #menu-items li a:hover{
+    color: rgb(206, 206, 206);
+    background-color: rgb(27, 27, 27);
+}
+
+
+/* NAVIGATION STYLING */
+#navigation{
+position: relative;
+background-color: rgb(19, 19, 19);  
+height: 90px;  
+display: flex;  
+align-items: center;
+}
+
+#navigation nav{
+width: 100%;
+}
+
+#navigation #header-logo{
+    float:left;
+    width: 20%;
+}
+#navigation #header-logo img{
+    max-height: 90px;
+}
+
+#navigation nav #header-menu{
+    float:right;
+    width: 80%;
+}
+
+#navigation nav #header-menu #menu-items{
+    float: right;
+    margin-right: 50px;
+}
+
+#navigation nav #header-menu ul li{
+    display: inline;
+    padding: 10px;
+}
+
+#navigation nav #header-menu ul li a{
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#navigation nav #header-menu ul li a:hover{
+    border-bottom: 2px solid rgb(206, 206, 206);
+    color: rgb(206, 206, 206);
+}
+
+
+/*FOOTER*/
+#footer-content{
+    color: white;
+}
+
+#footer-content h4{
+    color: rgb(105, 189, 223);
+}
+
+#footer-content #columns{
+    background-color: rgb(31, 31, 31);
+    justify-content: space-around;
+    display: flex;
+    padding: 20px 10px;
+    
+}
+
+#footer-content #column-2 a, #footer-content #column-3 a{
+    display: block;
+    padding: 12px;
+    margin: 2px 0px;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+
+#footer-content #column-2 a:hover, #footer-content #column-3 a:hover{
+    background-color: rgb(14, 14, 14);
+}
+
+#footer-content #subfooter{
+    background-color: rgb(8, 8, 8);
+    padding: 20px;
+}
+
+/*LOGIN & REGISTRATION FORMS*/
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+}
+h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.form body {
+    background: #3e4144;
+}
+/*ROOM CSS*/
+    /*SLIDER CSS*/
+* {box-sizing:border-box}
+
+#slider-wrapper{
+    background-color: #3e4144;
+    padding: 20px 0px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 60%;
+  position: relative;
+  margin: auto;
+  background-color: black;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/8 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*SHOWCASE CSS*/
+#room-1{
+    background-image: url("images/rooms/1_single_simple.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: right;
+}
+
+#room-2{
+    background-image: url("images/rooms/1_single_luxury.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#room-3{
+    background-image: url("images/rooms/2_single_simple.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: right;
+}
+
+#room-4{
+    background-image: url("images/rooms/2_single_luxury.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#room-5{
+    background-image: url("images/rooms/1_double_simple.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: right;
+}
+
+#room-6{
+    background-image: url("images/rooms/1_double_luxury.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+   
+}
+
+#room-7{
+    background-image: url("images/rooms/2_double_simple.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: right;
+}
+
+#room-8{
+    background-image: url("images/rooms/2_double_luxury.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+
+#room-1, #room-2, #room-3, #room-4,#room-5, #room-6, #room-7, #room-8{
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px;
+    height: 57.1vh;
+    min-width: 100%;
+}
+
+#room-1 h2, #room-2 h2, #room-3 h2, #room-4 h2,#room-5 h2, #room-6 h2, #room-7 h2, #room-8 h2{
+    margin: 0px;
+    color: white;
+    padding: 10px 30px;
+}
+
+#room-2 h2, #room-4 h2, #room-6 h2, #room-8 h2, #room-2 p, #room-4 p, #room-6 p, #room-8 p{
+    text-align: right;
+    color: white;
+    max-width: 100%;
+}
+
+
+#room-1 h2, #room-3 h2, #room-5 h2, #room-7 h2, #room-1 p, #room-3 p, #room-5 p, #room-7 p{
+    text-align: left;
+    color: white;
+    max-width: 100%;
+}
+
+#textbox-right, #textbox-right {
+    float: right;
+    max-width: 40%;
+    padding-right: 30px;
+}
+
+#textbox-left, #textbox-left {
+    float: left;
+    max-width: 40%;
+    padding-left: 30px;
+}
+
+#textbox-left #button a, #textbox-right #button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+}
+
+/*SPAGHETTI CSS END*/
