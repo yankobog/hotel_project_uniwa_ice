@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 22, 2023 at 04:03 AM
+-- Generation Time: Jan 22, 2023 at 04:39 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -134,10 +134,10 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `name`, `surname`, `email`, `password`, `number`, `create_datetime`, `permission`) VALUES
-(10, 'YankoBog', 'Bogdan', 'Yanko', 'yankobog@localhost.com', '098f6bcd4621d373cade4e832627b4f6', '0123456789', '2022-06-13 22:22:44', 'user'),
-(11, 'admin', 'Administrator', 'Administrator', 'admin@localhost.com', '21232f297a57a5a743894a0e4a801fc3', '6969696969', '2022-06-13 22:25:32', 'admin'),
-(12, 'JohnD', 'John', 'Doe', 'johnd@localhost.com', '098f6bcd4621d373cade4e832627b4f6', '1234567890', '2022-06-13 22:27:41', 'user'),
-(13, 'supervisor', 'Supervisor', 'Account', 'supervisor@outlook.com', '21232f297a57a5a743894a0e4a801fc3', '0123456789', '2022-06-13 23:57:38', 'admin');
+(10, 'YankoBog', 'Bogdan', 'Yanko', 'yankobog@localhost.com', '098f6bcd4621d373cade4e832627b4f6', '0123456789', '2023-01-15 22:22:44', 'user'),
+(11, 'admin', 'Administrator', 'Administrator', 'admin@localhost.com', '21232f297a57a5a743894a0e4a801fc3', '6969696969', '2023-01-15 22:25:32', 'admin'),
+(12, 'JohnD', 'John', 'Doe', 'johnd@localhost.com', '098f6bcd4621d373cade4e832627b4f6', '1234567890', '2023-01-15 22:27:41', 'user'),
+(13, 'supervisor', 'Supervisor', 'Account', 'supervisor@outlook.com', '21232f297a57a5a743894a0e4a801fc3', '0123456789', '2023-01-15 23:57:38', 'admin');
 
 --
 -- Indexes for dumped tables
